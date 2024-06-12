@@ -1,6 +1,7 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
-require_once dirname(__DIR__) . '/src/InvoiceCalculator.php';
+require_once dirname(__DIR__) . '/InvoiceCalculator.php';
 
 class InvoiceCalculatorTest extends TestCase {
     public function testCalculateTotal() {
